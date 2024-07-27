@@ -1,7 +1,7 @@
-# Using official python runtime base image
+# 1, Using official python runtime base image
 FROM python:3.11-alpine
 
-# Set the application directory
+# Set .he application directory
 WORKDIR /app
 
 # Install our requirements.txt
